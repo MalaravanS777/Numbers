@@ -5,7 +5,8 @@ if a<b:
         print(a)
     else:
         print(c)
-elif b<c:
-    print(b)
 else:
-    print(c)
+    if b<c:
+        print(b)
+    else:
+        print(c)
